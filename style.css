@@ -1,0 +1,45 @@
+@font-face { font-family: "Rondo"; src: url('rondo.ttf') format('truetype');}
+
+.inner-container {
+	margin: 20px;
+	border-style: inset;
+	border-radius: 8px;
+	background-color: rgb(212, 212, 212);
+	padding: 0px;
+	width: 640px;
+	height: 640px;
+}
+
+.inner-container p {
+	margin: 5px;
+
+}
+
+.outer-container {
+	border-width: 50px;
+	border-radius: 0;
+	background-color: red;
+	padding: 0px 30px 30px 30px;
+	text-align: center;
+	width: 720px;
+}
+
+.outer-container h1 {
+	font-family: "Rondo", "Comic Sans", serif;
+	text-align: center;
+	color: white;
+	font-size: 3.8em;
+	margin: 5px;
+
+}
+
+.pixel {
+	width: 40px;
+	height: 40px;
+	margin: 0px;
+	background-color: rgb(212, 212, 212);
+	display: inline-block;
+}
+.etched {
+	background-color: rgb(84,84,84);
+}
