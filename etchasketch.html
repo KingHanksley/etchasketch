@@ -7,11 +7,29 @@
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+
+	<div id="intro">
+	<h2> Welcome to Etch A Sketch</h2>
+	<p>This version was built by David Iscoe. The project guidelines were specified by <a href="https://www.theodinproject.com/"> The Odin Project</a>. The physical Etch A Sketch was invented by André Cassagnes, a French electrician, in the 1950s. A company called Spin Master in Toronto, ON, Canada.</p>
+	</div>
+	<div class="control-panel">
+	<p> Please select your preferred resolution below:</p>
+		<select id="choose-size">
+			<option value=16> 16 by 16 (256p)
+			<option value=20> 20 by 20 (400p)
+			<option value=40> 40 by 40 (1600p)
+			<option value=80> 80 by 80 (6400p)
+			<option value=128> 128 by 128 (16384p)
+		</select>
+	</div>
 	<div class="outer-container">
 		<h1>Etch A Sketch</h1>
 		<div class="inner-container">
 		</div>
+		<button id="reset">Reset</button>
+		<button id="shake">Shake </button>
 	</div>
-	</body>
 
+	</body>
+  
 </html>

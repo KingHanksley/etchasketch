@@ -1,18 +1,23 @@
 @font-face { font-family: "Rondo"; src: url('rondo.ttf') format('truetype');}
 
 .inner-container {
-	margin: 20px;
+	margin: 20px auto;
 	border-style: inset;
 	border-radius: 8px;
 	background-color: rgb(212, 212, 212);
 	padding: 0px;
 	width: 640px;
 	height: 640px;
+	font-size: 0em;
 }
 
-.inner-container p {
-	margin: 5px;
+#intro {
+	margin: auto;
+	width: 500px;
+}
 
+#intro h2 {
+	text-align: center;
 }
 
 .outer-container {
@@ -22,7 +27,19 @@
 	padding: 0px 30px 30px 30px;
 	text-align: center;
 	width: 720px;
+	margin: 0 auto;
 }
+
+.control-panel {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#choose-size {
+
+}
+
 
 .outer-container h1 {
 	font-family: "Rondo", "Comic Sans", serif;
@@ -34,12 +51,25 @@
 }
 
 .pixel {
-	width: 40px;
-	height: 40px;
 	margin: 0px;
 	background-color: rgb(212, 212, 212);
 	display: inline-block;
+	line-height: 0px;
 }
 .etched {
 	background-color: rgb(84,84,84);
+}
+
+button {
+	background-color: rgb(320,320,320);
+}
+
+#reset {
+	float: left;
+	margin-left: 100px;
+}
+
+#shake {
+	float: right;
+	margin-right: 100px;
 }
